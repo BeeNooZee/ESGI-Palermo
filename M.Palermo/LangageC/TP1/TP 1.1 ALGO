@@ -1,32 +1,35 @@
 ## Algo by Louis Dalet
 
-DEBUT
-    Afficher "Choisissez une opération: 1 pour Addition, 2 pour Soustraction, 3 pour Multiplication, 4 pour Division"
+Fonction TP1_1():
+    Afficher "TP1_1"
+
+    Entier operation, nombre1, nombre2
+
+    Afficher "Choisissez une operation: 1 pour Addition, 2 pour Soustraction, 3 pour Multiplication, 4 pour Division"
     Lire operation
 
-    Afficher "Entrez le premier nombre:"
+    Afficher "entrez le premier nombre"
     Lire nombre1
 
-    Afficher "Entrez le deuxième nombre:"
+    Afficher "entrez le deuxième nombre"
     Lire nombre2
 
-    SI operation == 1 ALORS
-        resultat = nombre1 + nombre2
-    SINON SI operation == 2 ALORS
-        resultat = nombre1 - nombre2
-    SINON SI operation == 3 ALORS
-        resultat = nombre1 * nombre2
-    SINON SI operation == 4 ALORS
-        SI nombre2 != 0 ALORS
-            resultat = nombre1 / nombre2
-        SINON
-            Afficher "Erreur: Division par zéro"
-            FIN
-        FIN SI
-    SINON
-        Afficher "Erreur: Opération non valide"
-        FIN
-    FIN SI
+    Entier resultat
 
-    Afficher "Le résultat est: ", resultat
-FIN
+    Si operation est égal à 1 alors
+        resultat = nombre1 + nombre2
+    Sinon Si operation est égal à 2 alors
+        resultat = nombre1 - nombre2
+    Sinon Si operation est égal à 3 alors
+        resultat = nombre1 * nombre2
+    Sinon Si operation est égal à 4 alors
+        Si nombre2 est égal à 0 alors
+            Afficher "Impossible de diviser par 0"
+            Retourner
+        Sinon
+            resultat = nombre1 / nombre2
+        Fin Si
+    Fin Si
+
+    Afficher resultat
+Fin Fonction
