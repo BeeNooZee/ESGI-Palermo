@@ -11,9 +11,25 @@ Début
     
     Pour j allant de 1 à entier faire
         R1 <- R1 + j
-        R2 <- R2 * j
+        Afficher j
+        Si j = entier alors
+            Afficher "="
+        Sinon
+            Afficher "+"
+        Fin Si
     Fin Pour
     
     Afficher R1
+    
+    Pour j allant de 1 à entier faire
+        R2 <- R2 * j
+        Afficher j
+        Si j = entier alors
+            Afficher "="
+        Sinon
+            Afficher "*"
+        Fin Si
+    Fin Pour
+    
     Afficher R2
 Fin
