@@ -1,0 +1,43 @@
+Algorithme TP1_5
+    Variables
+        mot: tableau de caractères de taille 100
+        longueur, debut, fin, i, estPalindrome: entiers
+    Début
+        Afficher "Entrez un mot : "
+        Saisir mot
+        
+        longueur <- Longueur de mot
+        
+        debut <- 0
+        fin <- longueur - 1
+        
+        Pour i allant de 0 à longueur - 1
+            mot[i] <- ConvertirEnMinuscules(mot[i])
+        Fin Pour
+        
+        estPalindrome <- 1
+        
+        Tant que debut < fin
+            Tant que mot[debut] n'est pas une lettre
+                debut <- debut + 1
+            Fin Tant que
+            
+            Tant que mot[fin] n'est pas une lettre
+                fin <- fin - 1
+            Fin Tant que
+            
+            Si mot[debut] ≠ mot[fin] Alors
+                estPalindrome <- 0
+                Sortir de la boucle
+            Fin Si
+            
+            debut <- debut + 1
+            fin <- fin - 1
+        Fin Tant que
+        
+        Si estPalindrome = 1 Alors
+            Afficher mot, " est un palindrome."
+        Sinon
+            Afficher mot, " n'est pas un palindrome."
+        Fin Si
+    Fin

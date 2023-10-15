@@ -1,4 +1,4 @@
-Algorithme TP1_2
+  Algorithme TP1_2
 Début
     Afficher "TP1_2"
     
