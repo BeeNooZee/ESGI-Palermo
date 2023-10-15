@@ -1,0 +1,64 @@
+Algo TP1.4
+
+Algorithme Convertisseur_de_devises :
+
+Float USD  = 0.9512
+Float EUR = 1
+Float GBP = 1.1533
+Float CAD = 0.6958
+Var MT = 0
+Var MT2 = 0
+Var MT3 = 0
+Var MT4 = 0
+
+Début
+Afficher ( Entrer une devise source )
+Lire MT
+
+Afficher ( Entrer une devise cible)
+Lire MT2
+
+Afficher ( Entrer le montant à convertir )
+Lire MT3
+
+si MT == USD et MT2 == EUR 
+alors MT4 = calcul de devise
+
+sinon si MT == USD et MT2 == GBP
+alors MT4 = calcul de devise 
+
+sinon si MT == USD et MT2 == CAD 
+alors MT4 = calcul de devise
+
+
+si MT == EUR et MT2 == USD
+alors MT4 = calcul de devise
+
+sinon si MT == EUR et MT2 == GBP
+alors cMT4 = alcul de devise 
+
+sinon si MT == EUR et MT2 == CAD 
+alors MT4 = calcul de devise
+
+
+si MT == GBP et MT2 == EUR 
+alors MT4 = calcul de devise
+
+sinon si MT == GPB et MT2 == USD
+alors MT4 = calcul de devise 
+
+sinon si MT == GPB et MT2 == CAD 
+alors MT4 = calcul de devise
+
+
+si MT == CAD et MT2 == EUR 
+alors MT4 = calcul de devise
+
+sinon si MT == CAD et MT2 == GBP
+alors MT4 = calcul de devise 
+
+sinon si MT == CAD et MT2 == USD 
+alors MT4 = calcul de devise
+
+Afficher ( MT4 )
+Fin
