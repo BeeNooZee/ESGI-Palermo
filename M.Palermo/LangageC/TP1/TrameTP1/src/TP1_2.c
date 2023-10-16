@@ -12,8 +12,26 @@ void TP1_2()
 
     for (j=1; j<=entier; j++){
         R1 = R1 + j;
-        R2 = R2 * j;
+        printf("%d", j);
+        if (j == entier){
+            printf("=");
+        }
+        else {
+            printf("+");
+        }
     }
     printf("%d\n", R1);
+
+    for (j=1; j<=entier; j++){
+        R2 = R2 * j;
+        printf("%d", j);
+        if (j == entier){
+            printf("=");
+        }
+        else {
+            printf("*");
+        }
+    }
     printf("%d\n", R2);
+
 }

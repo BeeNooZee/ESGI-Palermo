@@ -4,6 +4,9 @@
 
 void TP1_1();
 void TP1_2();
+void TP1_3();
+void TP1_4();
+void TP1_5();
 
 
 
