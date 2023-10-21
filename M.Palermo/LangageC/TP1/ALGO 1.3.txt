@@ -1,0 +1,30 @@
+Début de la procédure TP1_3()
+    CH = 0
+    Afficher "MenuTP1"
+    Afficher "À quelle personne voulez-vous conjuguer le verbe être ? (1/2/3/4/5/6)"
+    Lire CH
+
+    Si CH est égal à 1, alors
+        Afficher "Le verbe être à la première personne du singulier se conjugue : Je suis"
+    Fin Si
+
+    Si CH est égal à 2, alors
+        Afficher "Le verbe être à la deuxième personne du singulier se conjugue : Tu es"
+    Fin Si
+
+    Si CH est égal à 3, alors
+        Afficher "Le verbe être à la troisième personne du singulier se conjugue : Il est"
+    Fin Si
+
+    Si CH est égal à 4, alors
+        Afficher "Le verbe être à la première personne du pluriel se conjugue : Nous sommes"
+    Fin Si
+
+    Si CH est égal à 5, alors
+        Afficher "Le verbe être à la deuxième personne du pluriel se conjugue : Vous êtes"
+    Fin Si
+
+    Si CH est égal à 6, alors
+        Afficher "Le verbe être à la troisième personne du pluriel se conjugue : Ils sont"
+    Fin Si
+Fin de la procédure TP1_3()

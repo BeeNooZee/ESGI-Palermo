@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/louis/OneDrive/Bureau/four tout/Espace DEV AIX/DEV - ESGI/M.Palermo/LangageC/TP1/TrameTP1
+# Install script for directory: C:/Users/louis/OneDrive/Bureau/four tout/Espace DEV AIX/GIT-ESGI1/ESGI1-Cours/M.Palermo/LangageC/TP1/TrameTP1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/louis/OneDrive/Bureau/four tout/Espace DEV AIX/DEV - ESGI/M.Palermo/LangageC/TP1/TrameTP1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/louis/OneDrive/Bureau/four tout/Espace DEV AIX/GIT-ESGI1/ESGI1-Cours/M.Palermo/LangageC/TP1/TrameTP1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

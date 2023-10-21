@@ -14,4 +14,7 @@ add_executable(TrameTP1
         src/TP1_2.c
         main.c
         TrameTP1.cbp
-        TrameTP1.layout)
+        TrameTP1.layout
+        src/TP1_5.c
+        src/TP1_3.c
+        src/TP1_4.c)
