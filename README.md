@@ -1,4 +1,8 @@
 # ESGI1-Cours
 DB cours ESGI1 
 
-Hésitez pas a rajouter vous même les cours que les profs nous donne mais pas que.
+Pour récupérer les dossier présent sur le GITHub :
+
+  - clique droit ouvrir dans le terminal
+  - taper : "git pull"
+  - aprécier le fait de ne rien avoir a faire
