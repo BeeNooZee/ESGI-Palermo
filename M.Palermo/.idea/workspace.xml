@@ -20,7 +20,14 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09753274-7363-4386-b58e-31a31416c9ff" name="Changes" comment="" />
+    <list default="true" id="09753274-7363-4386-b58e-31a31416c9ff" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/cmake-build-debug/TrameTP1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/cmake-build-debug/TrameTP1.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/src/MenuTP1.c" beforeDir="false" afterPath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/src/MenuTP1.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/src/TP1_4.c" beforeDir="false" afterPath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/src/TP1_4.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/src/TP1_5.c" beforeDir="false" afterPath="$PROJECT_DIR$/LangageC/TP1/TrameTP1/src/TP1_5.c" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -64,11 +71,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -80,10 +82,17 @@
       <updated>1697438243193</updated>
       <workItem from="1697438244270" duration="7227000" />
       <workItem from="1697524071644" duration="3245000" />
+      <workItem from="1698090871170" duration="926000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
   </component>
 </project>
